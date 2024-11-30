@@ -1,0 +1,44 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    margin: auto;
+    background-color: rgb(3, 18, 3);
+    max-width: 40vh;
+    border-radius: 7px;
+}
+
+.center {
+    text-align: center;
+}
+
+.button {
+    padding: 13px;
+    margin: 4px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 49px;
+    font-size: 24PX;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 2px, 0px;
+    padding: 0px;
+}
+
+.input {
+    height: 10vh;
+    width: 39vh;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 30px;
+}
